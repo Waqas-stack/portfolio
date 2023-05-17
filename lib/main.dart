@@ -11,7 +11,7 @@ void main() {
   final Future<FirebaseApp> _intilization=Firebase.initializeApp();
   runApp(
 
-
+//waqas
     FutureBuilder(
       future: _intilization,
       builder: (BuildContext context, snapshot) {
